@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Siyumi Kumarasinghe</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Siyumi</p>
+            
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a onclick="window.open(cvLink, '_blank')">
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+            </a>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Siyumi Kumarasinghe</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>
+                    Dedicated software Engineering undergraduate with a passion for developing innovative, efficient, and user-focused applications.
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <a href="#contact" class="btn blue-btn">Hire Me</a>
+                
+                <!-- <button class="btn">Download CV <i class="uil uil-file-alt"></i></button> -->
+                <a href="https://mysliit-my.sharepoint.com/:b:/g/personal/it22221414_my_sliit_lk/EcmGlImn18FLrZHWUYUJOjMBhwTODTP8vYF-ZEj0ZnQj8A?e=Jtqnnz" target="_blank" class="btn blue-btn">Download CV</a>
+            </div>
+            <div class="social_icons">
+                <a href = "https://www.linkedin.com/in/siyumi-kumarasinghe-a9a88a24b/" target="_blank"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                <a href = "https://github.com/SiyumiSathnaraKumarasinghe" target="_blank"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+                <a href = "https://www.instagram.com/siyumikumarasinghe/?hl=en" target="_blank"><div class="icon"><i class="uil uil-instagram"></i></div></a>
+                <a href = "https://www.facebook.com/siyumi.kumarasinghe/" target="_blank"><div class="icon"><i class="uil uil-facebook"></i></div></a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/IMG-20220913-WA001s9.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>
+                        "I am a third-year Software Engineering BSc student at the Sri Lanka Institute of Information Technology (SLIIT), 
+                        with strong academic performance and a solid foundation in software development. 
+                        Motivated and hardworking, I embrace challenges to develop new skills and am passionate about problem-solving and continuous learning. 
+                        I am seeking an internship to enhance my technical skills, gain hands-on experience, 
+                        and contribute to organizational growth through my knowledge and expertise."
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>React.js</span>
+                        <span>Angular</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Tailwind CSS</span>
+                        <span>Bootstrap</span>
+                        <span>TypeScript</span>
+                        <span>JavaScript</span> 
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>Java</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                        <span>SQLite</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Projects</h1>
+            </div>
+            <div class="project-container">
+                <div class="project-box">
+                    <i class="uil uil-comparison"></i>
+                    <h3><Center>Web App for Rubber Carpet <br> Manufacturing factory</Center></h3>
+                    <center>
+                        <label>Group Project for PRI Rubber Industries, which recycles <br> disposable rubber items into rubber carpets.</label>
+                        <br><label>(Completed)</label>
+                    </center>
+                    <button class="hover-btn"><a href = "https://github.com/Xanvia/MOOC-IT-Center-UOP">github link</a></button>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-file-check-alt"></i>
+                    <h3>Happy Cycle</h3>
+                    <center>
+                        <label>Daily Planner App featuring a reminder function and a stopwatch</label>
+                        <label>(Completed)</label>
+                    </center>
+                    <button class="hover-btn"><a href = "https://github.com/AselDamsika/Traffic-Management-Using-Image-processing">github link</a></button>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-book"></i>
+                    <h3>Study Hub</h3>
+                    <center>
+                        <label>Frontend design for an educational app to organize study materials, track assignments, and take quizzes to enhance learning.</label>
+                        <br><label>(Completed)</label>
+                    </center>
+                    <button class="hover-btn"><a href = "https://github.com/AselDamsika/Traffic-Management-Using-Image-processing">github link</a></button>
+                </div> 
+                <div class="project-box">
+                    <i class="uil uil-car"></i>
+                    <h3>Travel Troope</h3>
+                    <center>
+                        <label>Web Application for a Vehicle Rental System. ( Vehicle details management part developed by me)</label>
+                        <br><label>(Completed)</label>
+                    </center>
+                    <button class="hover-btn"><a href = "https://github.com/AselDamsika/Traffic-Management-Using-Image-processing">github link</a></button>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-heart"></i>
+                    <h3>Life care Insurance</h3>
+                    <center>
+                        <label>Web Application for a Life Insurance Management System. A group project done for 1YS2 using HTML, CSS, PHP, JS.</label>
+                        <br><label>(Completed)</label>
+                    </center>
+                    <button class="hover-btn"><a href = "https://github.com/AselDamsika/Traffic-Management-Using-Image-processing">github link</a></button>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-heart"></i>
+                    <h3>Read Rate</h3>
+                    <center>
+                        <label>A simple full-stack web application for book enthusiasts to browse, add, edit, and delete their book reviews</label>
+                        <br><label>(Completed)</label>
+                    </center>
+                    <button class="hover-btn"><a href = "https://github.com/AselDamsika/Traffic-Management-Using-Image-processing">github link</a></button>
+                </div> 
+                <div class="project-box">
+                    <i class="uil uil-user"></i>
+                    <h3>User-Flow</h3>
+                    <center>
+                        <label>A simple User Management Web Application created for Login, Registering, Browsing, Updating and Deleting users and user details.</label>
+                        <br><label>(Ongoing)</label>
+                    </center>
+                    <button class="hover-btn"><a href = "https://github.com/AselDamsika/Traffic-Management-Using-Image-processing">github link</a></button>
+                </div>
+                <div class="project-box">
+                    <i class="uil uil-user"></i>
+                    <h3>Trackify</h3>
+                    <center>
+                        <label>A simple task management application designed to help users stay organized and efficient. With Trackify, users can effortlessly create, view, update, and delete tasks.</label>
+                        <br><label>(Ongoing)</label>
+                    </center>
+                    <button class="hover-btn"><a href = "https://github.com/AselDamsika/Traffic-Management-Using-Image-processing">github link</a></button>
+                </div>          
+            </div>
+        </section>
+
+
+        <!-- -------------- Licenes & Certifications ---------------- -->
+
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Licenes & Certifications</h1>
+            </div>
+        
+            <div class="lc-container">
+                <a href="https://open.uom.lk/lms/mod/customcert/verify_certificate.php" target="_blank" class="lc-link">
+                    <div class="lc-box">
+                        <i class="uil uil-medal"></i>
+                        <h3>Web Design for Beginners</h3>
+                        <label>CODL | University of Moratuwa</label>
+                        <label>Code - aaREApFXpy</label>                                
+                    </div>
+                </a>
+                <a href="https://www.coursera.org/account/accomplishments/records/FLGK2NY9AVFS" target="_blank" class="lc-link">
+                    <div class="lc-box">
+                        <i class="uil uil-medal"></i>
+                        <h3>Programming for Everybody (Getting start with Python)</h3>
+                        <label>Couresra | University of Michigan</label>                               
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/learning/certificates/9fbc4f5fee2303f89015f00b0e433006b87dba022069ea95fe60bd1d2798f987" target="_blank" class="lc-link">
+                    <div class="lc-box">
+                        <i class="uil uil-medal"></i>
+                        <h3>API Testing Foundation</h3>
+                        <label>LinkedIn</label>                                        
+                    </div>
+                </a>
+                <a href="https://www.coursera.org/account/accomplishments/verify/U86N3FW8ZKDC" target="_blank" class="lc-link">
+                    <div class="lc-box">
+                        <i class="uil uil-medal"></i>
+                        <h3>Introduction to Frontend Development</h3>
+                        <label>Couresra | Meta</label> 
+                    </div>
+                </a>
+                <a href="https://www.coursera.org/account/accomplishments/records/FLGK2NY9AVFS" target="_blank" class="lc-link">
+                    <div class="lc-box">
+                        <i class="uil uil-medal"></i>
+                        <h3>Introduction to Backend Development</h3>
+                        <label>Couresra | Meta</label>                                        
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/asel-d-bandara-1791072a6/details/certifications/1720704340143/single-media-viewer/?profileId=ACoAAEmy3C0BVLIbLk9f4gTWaviA-MMFIIKA3io" target="_blank" class="lc-link">
+                    <div class="lc-box">
+                        <i class="uil uil-medal"></i>
+                        <h3>Assessment for the skill React (basic)</h3>
+                        <label>HackerRank</label>                                        
+                    </div>
+                </a>
+                <a href="https://www.coursera.org/account/accomplishments/verify/FJRV9QHVHK3G" target="_blank" class="lc-link">
+                    <div class="lc-box">
+                        <i class="uil uil-medal"></i>
+                        <h3>How to use roadmaps in Jira</h3>
+                        <label>Couresra | Project Network</label>                                        
+                    </div>
+                </a>
+            </div>
+        </section>
+        
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: aseldamsika2000@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +94 71 85 23 715</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Asel Bandara</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://www.linkedin.com/in/asel-d-bandara-1791072a6/"><div class="icon"><i class="uil uil-linkedin-alt"></i></div></a>
+                <a href = "https://github.com/AselDamsika"><div class="icon"><i class="uil uil-github-alt"></i></div></a>
+                <a href = "https://www.instagram.com/asel_damsika?igsh=MXc4czRraTdmM2RpYg=="><div class="icon"><i class="uil uil-instagram"></i></div></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Asel Bandara</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
