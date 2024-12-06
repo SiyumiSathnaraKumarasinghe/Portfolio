@@ -32,7 +32,7 @@ function myMenuFunction(){
 
 
   var cvLink =
-  "https://drive.google.com/file/d/1hagNNn-0riNixWIKId4XQwQnJogDt2jv/view";
+  "https://mysliit-my.sharepoint.com/:b:/g/personal/it22221414_my_sliit_lk/EXRFylDxjupJhABoU4mIDGIBFhji756NTBj4hRi_CYuTKw?e=Sa97Bx";
 
 /* ----- TYPING EFFECT ----- */
  var typingEffect = new Typed(".typedText",{
