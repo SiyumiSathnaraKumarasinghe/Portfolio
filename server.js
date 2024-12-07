@@ -2,14 +2,16 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const path = require("path"); // To handle static file serving
 require("dotenv").config(); // Load environment variables from .env
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000; // Use dynamic port for deployment
 
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname))); // Serve static files from the root directory
 
 // Handle form submission
 app.post("/send", async (req, res) => {
@@ -49,6 +51,11 @@ app.post("/send", async (req, res) => {
     console.error("Error sending email:", error);
     res.status(500).send("Failed to send message.");
   }
+});
+
+// Serve index.html for all unknown routes (for frontend)
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 // Start the server
