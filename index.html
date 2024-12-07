@@ -324,8 +324,8 @@
       }
   
       try {
-        // Send data to the backend
-        const response = await fetch("http://localhost:3000/send", {
+        // Send data to the backend (updated URL)
+        const response = await fetch("https://portfolio-backend-ts5e.onrender.com/send", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ name, email, message }),
@@ -342,7 +342,7 @@
       }
     }
   </script>
-  
+    
 
     </main>
 
