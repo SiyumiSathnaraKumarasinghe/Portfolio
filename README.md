@@ -31,4 +31,9 @@ I am a **second-year Software Engineering undergraduate** at the **Sri Lanka Ins
 - **Strong academic background and practical development experience.**  
 - **Problem-solving mindset and attention to detail.**  
 - **Effective communication and teamwork skills.**  
-- **Quick learner with adaptability to new tools and environments.**  
+- **Quick learner with adaptability to new tools and environments.**
+
+### 📚 **I'm Currently Learning**
+- Next.js
+- .Net
+- Angular
