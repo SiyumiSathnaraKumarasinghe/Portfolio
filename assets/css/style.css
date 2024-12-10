@@ -507,7 +507,7 @@ h3{
 }
 
 /* ----- CONTACT BOX ----- */
-.contact-info{
+.contact-info {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -516,20 +516,22 @@ h3{
     padding: 20px 30px;
     width: 100%;
     height: 315px;
-    background: var(--second-color);
+    background: var(--second-color) url('../images/mail.png') no-repeat center center;
+    background-size: cover;
     border-radius: 10px;
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     overflow: hidden;
 }
+
 .contact-info>h2{
-    color: var(--color-white);
+    color: var(--color-dark-gray);
     margin-bottom: 20px;
 }
 .contact-info>p{
     display: flex;
     align-items: center;
     gap: 10px;
-    color: var(--color-white);
+    color: var(--color-dark-gray);
     margin-block: 5px;
 }
 .contact-info p>i{
