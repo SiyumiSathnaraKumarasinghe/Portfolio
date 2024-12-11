@@ -12,7 +12,7 @@
     --first-color: rgb(87, 86, 86);
     --first-color-hover: rgb(31, 31, 31);
 
-    --second-color: rgb(97, 97, 97);
+    --second-color: rgb(73, 73, 73);
     --third-color: rgb(52, 48, 33);
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
@@ -523,10 +523,12 @@ h3{
     overflow: hidden;
 }
 
-.contact-info>h2{
-    color: var(--color-dark-gray);
+.contact-info > h2 {
+    color: #36454F;
     margin-bottom: 20px;
+    font-size: 40px;
 }
+
 .contact-info>p{
     display: flex;
     align-items: center;
